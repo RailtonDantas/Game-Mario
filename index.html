@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mário Bros</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="display-game-and-dificulty-meter" class="row">
+            <span class="material-symbols-outlined margin">settings</span>
+                <ul class="margin">
+                    <li>FÁCIL</li>
+                    <li>MÉDIO</li>
+                    <li>DIFÍCIL</li>
+                </ul>
+                <div class="display">
+                    <span id="points">PONTOS: <span id="count-points">000</span> </span>
+                    <span id="mario"><img src="imagens/mario-removebg-preview.png" alt=""></span>
+                    <span id="clouds"><img src="imagens/clouds-removebg-preview.png" alt="Nuvens"></span>
+                    <span id="pipe"><img src="imagens/pipe-semfundo.png" alt=""></span>
+                </div>
+            </section>
+        <section id="play-or-pause-game" class="row">
+            <button id="play">Jogar</button>
+            <button id="pause">Pausar</button>
+            <button id="resume">Continuar</button>
+            <button id="reset">Resetar</button>
+        </section>
+    </main>
+</body>
+</html>
